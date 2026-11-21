@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Nairobi Unlocked</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+
+        <a href="index.html" class="logo">
+            NAIROBI UNLOCKED 🇰🇪
+        </a>
+
+        <nav class="main-navigation">
+
+            <button class="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navigation-links">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+            <button class="theme-toggle"
+                    type="button"
+                    aria-label="Switch to dark mode">
+                ☾
+            </button>
+
+            <ul class="nav-links" id="navigation-links">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- Contact Introduction -->
+        <section class="explore-intro">
+
+            <h1>Let's Talk Travel! ✈️</h1>
+
+            <p>
+                Planning a Nairobi adventure? Have a question
+                or need more information? Drop us a message.
+                We'd love to hear from you!
+            </p>
+
+        </section>
+
+
+        <!-- Contact Form -->
+        <section class="contact-section">
+
+            <div class="contact-form-container">
+
+                <h2>Send Us an Enquiry</h2>
+
+                <p>
+                    Fill in the details below and tell us
+                    what you'd love to explore.
+                </p>
+
+                <form id="contact-form">
+
+                    <!-- Name -->
+                    <div class="form-group">
+
+                        <label for="visitor-name">
+                            Your Name *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="visitor-name"
+                            name="visitor-name"
+                            placeholder="Enter your full name"
+                            required
+                            minlength="2"
+                        >
+
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="form-group">
+
+                        <label for="visitor-email">
+                            Email Address *
+                        </label>
+
+                        <input
+                            type="email"
+                            id="visitor-email"
+                            name="visitor-email"
+                            placeholder="you@example.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Phone -->
+                    <div class="form-group">
+
+                        <label for="visitor-phone">
+                            Phone Number (Optional)
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="visitor-phone"
+                            name="visitor-phone"
+                            placeholder="+254..."
+                        >
+
+                    </div>
+
+
+                    <!-- Destination -->
+                    <div class="form-group">
+
+                        <label for="destination">
+                            What would you love to explore?
+                        </label>
+
+                        <select id="destination" name="destination">
+
+                            <option value="">
+                                Select an experience
+                            </option>
+
+                            <option value="Culture">
+                                Maasai Market and Culture
+                            </option>
+
+                            <option value="Wildlife">
+                                Giraffe Centre and Wildlife
+                            </option>
+
+                            <option value="History">
+                                National Museum and Snake Park
+                            </option>
+
+                            <option value="Recreation">
+                                Karura Forest and Recreation
+                            </option>
+
+                            <option value="Food">
+                                Kenyan Food and Cuisine
+                            </option>
+
+                            <option value="Maasai Mara">
+                                Maasai Mara Safari
+                            </option>
+
+                            <option value="Other">
+                                Other experiences
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- Travel Date -->
+                    <div class="form-group">
+
+                        <label for="travel-date">
+                            Expected Travel Date (Optional)
+                        </label>
+
+                        <input
+                            type="date"
+                            id="travel-date"
+                            name="travel-date"
+                        >
+
+                    </div>
+
+
+                    <!-- Message -->
+                    <div class="form-group">
+
+                        <label for="visitor-message">
+                            Your Message *
+                        </label>
+
+                        <textarea
+                            id="visitor-message"
+                            name="visitor-message"
+                            rows="5"
+                            placeholder="Tell us what you would like to know..."
+                            required
+                            minlength="10"
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- Submit -->
+                    <button type="submit" class="submit-button">
+                        Send Enquiry →
+                    </button>
+
+
+                    <!-- Confirmation Message -->
+                    <p
+                        id="form-response"
+                        class="form-response"
+                        role="status"
+                        aria-live="polite"
+                        hidden>
+                    </p>
+
+                </form>
+
+            </div>
+
+
+            <!-- Contact Details -->
+            <aside class="contact-details">
+
+                <h2>Need to Reach Us?</h2>
+
+                <p>
+                    You can also get in touch using the
+                    contact details below.
+                </p>
+
+                <p>
+                    <strong>Phone:</strong><br>
+                    <a href="tel:+254702614595">
+                        +254 702 614 595
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Email:</strong><br>
+                    <a href="mailto:mngonyo2005@gmail.com">
+                        mngonyo2005@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>LinkedIn:</strong><br>
+                    <a href="https://www.linkedin.com/search/results/people/?keywords=Margaret%20Ngonyo"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Margaret Ngonyo
+                    </a>
+                </p>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <h2>NAIROBI UNLOCKED 🇰🇪</h2>
+
+        <p>Hakuna Matata, let's explore!</p>
+
+        <a href="index.html">Back to Home</a>
+
+        <p>&copy; 2026 Nairobi Unlocked.</p>
+
+    </footer>
+
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
